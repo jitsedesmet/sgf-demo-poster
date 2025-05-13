@@ -1,0 +1,143 @@
+* {
+    --rq-color: #d9d2e9;
+    --color-key: #486081;
+    --slide-background: #f6fdf5;
+    --color-prim: #1a4e66;
+    --color-prim-light: #d8deff;
+    --color-sec: #e26c22;
+    --color-ter: white;
+    --color-href: var(--color-sec);
+    --size-huge: 1.8rem;
+    --size-big: 1.7rem;
+    --size-small: 1rem;
+    --size-norm: 1.5rem;
+    line-height: 1.2em;
+}
+
+@page {
+    margin: 0;
+    size: 841px 1189px;
+}
+
+html, body {
+    font-size: 20px;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+.mgrid {
+    display: grid;
+    grid-template-rows: repeat(32, minmax(0, 1fr));
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+    font-size: var(--size-norm);
+    --padding: 0.5cm;
+    padding: var(--padding);
+    height: calc(100% - var(--padding)*2);
+    width: calc(100% - var(--padding)*2);
+    color: black;
+}
+
+.mgrid * {
+    align-content: center;
+    justify-content: center;
+}
+
+.mtitle {
+    grid-column: 1 / -1;
+    grid-row: 1 / span 3;
+    font-weight: bold;
+    background: var(--color-prim);
+    font-size: var(--size-huge);
+
+    text-align: center;
+    padding: 0.5em;
+    color: var(--color-ter);
+}
+
+.mfooter {
+    grid-column: 1 / -1;
+    grid-row: -3 / -1;
+    font-size: var(--size-small);
+    background: var(--color-prim);
+    color: var(--color-ter);
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+#main-body {
+    grid-column: 1 / -1;
+    grid-row: 12 / span 2;
+    text-align: center;
+    font-size: var(--size-big);
+    background: var(--color-prim-light);
+    color: black;
+}
+#solution-img {
+    grid-column: 9 / -1;
+    grid-row: 14 / -6;
+
+    height: 100%;
+    --pad: calc(1em);
+    padding: var(--pad);
+    width: calc(100% - var(--pad));
+}
+
+#description {
+    grid-column: 1/ span 10;
+    grid-row: 15 / span 7;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1em;
+}
+#description li {
+    margin-bottom: 0.1em;
+}
+
+#future-work {
+    grid-column: 1 / span 10;
+    grid-row: 22 / span 5;
+    padding: 0.2em 0 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+}
+#future-work li {
+    margin-bottom: 0.1em;
+}
+
+#vision-change {
+    grid-column: 1 / -1;
+    grid-row: -5 / -3;
+    color: black;
+    font-size: var(--size-big);
+    text-align: center;
+    background: var(--color-prim-light);
+    border-radius:  1rem 1rem 0 0;
+}
+
+#problem-img {
+    grid-column: 1 / span 8;
+    grid-row: 4 / span 8;
+    --pad: 1em;
+    padding: var(--pad) 0;
+    height: calc(100% - 2 *var(--pad));
+}
+#negative {
+    grid-column: 11 / -1;
+    grid-row: 4 / span 8;
+}
+#negative li {
+    margin-bottom: 0.5em;
+}
+#negative li::marker {
+    color: red;
+}
+
+
+
+.logo {
+    margin: 0 1em 0 1em;
+}

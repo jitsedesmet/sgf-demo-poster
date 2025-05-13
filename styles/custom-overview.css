@@ -1,0 +1,86 @@
+/*var defs*/
+
+.caption {
+    border-top: 10px solid var(--color-prim);
+    background: var(--color-prim);
+    padding-bottom: 0;
+}
+
+.caption .title {
+    padding-left: 0.5em;
+}
+
+.caption h1 {
+    color: var(--color-ter);
+    font-weight: bold;
+}
+
+header .subtitle {
+    font-weight: bold;
+    padding: 0.4em;
+}
+
+header .author {
+    font-size: 0.6em;
+    padding-bottom: 0.3em;
+    line-height: 1.1em;
+}
+
+header .affiliation {
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+header .venue {
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+.captiondata {
+    background-color: var(--color-prim);
+    padding: 0.5em;
+}
+
+.caption .captiondata * {
+    color: var(--color-ter);
+}
+
+.shower > .badge {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: start;
+    justify-content: center;
+    padding: calc(var(--slide-scale) * 30px) calc(var(--slide-scale) * 60px);
+    font-size: calc(
+            var(--slide-scale) * 48px
+    );
+}
+
+
+.shower > .badge svg {
+    height: 1.25em;
+    width: 1.25em;
+    margin: 0;
+    position: inherit;
+    fill: black;
+}
+
+.shower > .badge a {
+    margin: 0;
+}
+
+@media print {
+    .slide {
+        background: white;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .slide.index {
+        border-top: none;
+        border-bottom: none;
+    }
+}
