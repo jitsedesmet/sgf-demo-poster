@@ -39,6 +39,10 @@ html, body {
     color: black;
 }
 
+.mgrid li::marker {
+    font-family: 'Noto Emoji', sans-serif;
+}
+
 .mgrid * {
     align-content: center;
     justify-content: center;
@@ -74,20 +78,19 @@ html, body {
     font-size: var(--size-big);
     background: var(--color-prim-light);
     color: black;
+    border-radius: 0.25em;
 }
 #solution-img {
-    grid-column: 9 / -1;
-    grid-row: 14 / -6;
-
-    height: 100%;
-    --pad: calc(1em);
-    padding: var(--pad);
-    width: calc(100% - var(--pad));
+    position: absolute;
+    width: 60%;
+    top: 68%;
+    left: 55%;
+    transform: translate(-50%, -50%);
 }
 
 #description {
     grid-column: 1/ span 10;
-    grid-row: 15 / span 7;
+    grid-row: 14 / span 6;
     align-items: center;
     justify-content: center;
     padding: 0.1em;
@@ -97,8 +100,8 @@ html, body {
 }
 
 #future-work {
-    grid-column: 1 / span 10;
-    grid-row: 22 / span 5;
+    grid-column: -10 / span 10;
+    grid-row: 24 / span 5;
     padding: 0.2em 0 0 0.5em;
     display: flex;
     flex-direction: column;
