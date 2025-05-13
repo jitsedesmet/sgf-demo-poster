@@ -1,4 +1,4 @@
-# Slides for PhD Symosium of Jitse De Smet for ESWC 2025
+# Poster for demo of Jitse De Smet for ESWC 2025
 
 **Live version: **
 
