@@ -70,6 +70,11 @@ html, body {
     display: flex;
     align-items: center;
 }
+.mfooter a {
+    color: var(--color-ter);
+    text-decoration: none;
+    border: none;
+}
 
 #main-body {
     grid-column: 1 / -1;
