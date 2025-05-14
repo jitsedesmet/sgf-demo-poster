@@ -66,7 +66,7 @@ html, body {
     font-size: var(--size-small);
     background: var(--color-prim);
     color: var(--color-ter);
-    padding: 0.5em;
+    padding: 0 1em;
     display: flex;
     align-items: center;
 }
@@ -86,28 +86,26 @@ html, body {
     border-radius: 0.25em;
 }
 #solution-img {
-    position: absolute;
-    width: 60%;
-    top: 68%;
-    left: 55%;
-    transform: translate(-50%, -50%);
+    grid-row: 17 / span 12;
+    grid-column: 8 / -1;
+    height: 100%;
+    width: 100%;
 }
 
 #description {
     grid-column: 1/ span 10;
-    grid-row: 14 / span 6;
+    grid-row: 13 / span 6;
     align-items: center;
     justify-content: center;
-    padding: 0.1em;
+    padding-top: 2em;
 }
 #description li {
     margin-bottom: 0.1em;
 }
 
 #future-work {
-    grid-column: -10 / span 10;
+    grid-column: 1 / span 10;
     grid-row: 24 / span 5;
-    padding: 0.2em 0 0 0.5em;
     display: flex;
     flex-direction: column;
     justify-items: flex-end;
@@ -123,18 +121,18 @@ html, body {
     font-size: var(--size-big);
     text-align: center;
     background: var(--color-prim-light);
-    border-radius:  1rem 1rem 0 0;
+    border-radius:  2rem 2rem 0 0;
 }
 
 #problem-img {
     grid-column: 1 / span 8;
-    grid-row: 4 / span 8;
-    --pad: 1em;
+    grid-row: 3 / span 10;
+    --pad: 1.7em;
     padding: var(--pad) 0;
     height: calc(100% - 2 *var(--pad));
 }
 #negative {
-    grid-column: 11 / -1;
+    grid-column: 12 / -1;
     grid-row: 4 / span 8;
 }
 #negative li {

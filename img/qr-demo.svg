@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" style="max-width: 100%;height: auto;" width="999" height="999" viewBox="0 0 999 999">
-<rect width="999" height="999" fill="#ffffff" x="0" y="0"></rect>
-    <g fill="#000000">
+    <g fill="#ffff">
 <g transform="translate(270,54) scale(4.635)"><rect width="6" height="6"></rect></g>
         <g transform="translate(297,54) scale(4.635)"><rect width="6" height="6"></rect></g>
         <g transform="translate(324,54) scale(4.635)"><rect width="6" height="6"></rect></g>
@@ -447,10 +446,10 @@
         <g transform="translate(675,918) scale(4.635)"><rect width="6" height="6"></rect></g>
         <g transform="translate(702,918) scale(4.635)"><rect width="6" height="6"></rect></g>
         <g transform="translate(891,918) scale(4.635)"><rect width="6" height="6"></rect></g>
-</g><g><g transform="translate(54,54)" fill="#000000"><g transform="scale(13.5)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"></path></g></g>
-    <g transform="translate(756,54)" fill="#000000"><g transform="scale(13.5)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"></path></g></g>
-    <g transform="translate(54,756)" fill="#000000"><g transform="scale(13.5)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"></path></g></g>
-    <g transform="translate(108,108)" fill="#000000"><g transform="scale(13.5)"><rect width="6" height="6"></rect></g></g>
-    <g transform="translate(810,108)" fill="#000000"><g transform="scale(13.5)"><rect width="6" height="6"></rect></g></g>
-    <g transform="translate(108,810)" fill="#000000"><g transform="scale(13.5)"><rect width="6" height="6"></rect></g></g></g>
+</g><g><g transform="translate(54,54)" fill="#ffff"><g transform="scale(13.5)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"></path></g></g>
+    <g transform="translate(756,54)" fill="#ffff"><g transform="scale(13.5)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"></path></g></g>
+    <g transform="translate(54,756)" fill="#ffff"><g transform="scale(13.5)"><path d="M0,0v14h14V0H0z M12,12H2V2h10V12z"></path></g></g>
+    <g transform="translate(108,108)" fill="#ffff"><g transform="scale(13.5)"><rect width="6" height="6"></rect></g></g>
+    <g transform="translate(810,108)" fill="#ffff"><g transform="scale(13.5)"><rect width="6" height="6"></rect></g></g>
+    <g transform="translate(108,810)" fill="#ffff"><g transform="scale(13.5)"><rect width="6" height="6"></rect></g></g></g>
 </svg>
