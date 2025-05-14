@@ -50,7 +50,7 @@ html, body {
 
 .mtitle {
     grid-column: 1 / -1;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
     font-weight: bold;
     background: var(--color-prim);
     font-size: var(--size-huge);
@@ -78,7 +78,7 @@ html, body {
 
 #main-body {
     grid-column: 1 / -1;
-    grid-row: 12 / span 2;
+    grid-row: 13 / span 3;
     text-align: center;
     font-size: var(--size-big);
     background: var(--color-prim-light);
@@ -86,15 +86,16 @@ html, body {
     border-radius: 0.25em;
 }
 #solution-img {
-    grid-row: 17 / span 12;
     grid-column: 8 / -1;
+    grid-row: 17 / span 11;
     height: 100%;
     width: 100%;
+    transform: translate(0, 1em);
 }
 
 #description {
     grid-column: 1/ span 10;
-    grid-row: 13 / span 6;
+    grid-row: 15 / span 6;
     align-items: center;
     justify-content: center;
     padding-top: 2em;
@@ -126,14 +127,14 @@ html, body {
 
 #problem-img {
     grid-column: 1 / span 8;
-    grid-row: 3 / span 10;
+    grid-row: 4 / span 10;
     --pad: 1.7em;
     padding: var(--pad) 0;
     height: calc(100% - 2 *var(--pad));
 }
 #negative {
     grid-column: 12 / -1;
-    grid-row: 4 / span 8;
+    grid-row: 5 / span 8;
 }
 #negative li {
     margin-bottom: 0.5em;
