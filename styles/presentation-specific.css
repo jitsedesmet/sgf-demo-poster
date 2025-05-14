@@ -3,7 +3,7 @@
     --color-key: #486081;
     --slide-background: #f6fdf5;
     --color-prim: #1a4e66;
-    --color-prim-light: #d8deff;
+    --color-prim-light: #dae8fc;
     --color-sec: #e26c22;
     --color-ter: white;
     --color-href: var(--color-sec);
@@ -98,10 +98,11 @@ html, body {
     grid-row: 15 / span 6;
     align-items: center;
     justify-content: center;
-    padding-top: 2em;
+    margin-top: 2em;
 }
-#description li {
+#description li, #description li::marker {
     margin-bottom: 0.1em;
+    margin-left: 1.3em;
 }
 
 #future-work {
@@ -111,8 +112,9 @@ html, body {
     flex-direction: column;
     justify-items: flex-end;
 }
-#future-work li {
+#future-work li, #future-work li::marker {
     margin-bottom: 0.1em;
+    margin-left: 1.5em;
 }
 
 #vision-change {
